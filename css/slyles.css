@@ -164,7 +164,9 @@ img {
 
 .hero {
   background-color: var(--subtitle-color);
-  padding: 188px 0 188px;
+  /* padding: 188px 0 188px; */
+  padding-top: 112px;
+  padding-bottom: 240px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -179,14 +181,17 @@ img {
 
 .hero-title {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  /* font-size: 56px; */
+  font-size: 36px;
+  /* line-height: 1.07; */
+  line-height: 1.08;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.045em;
   color: var(--title-color);
   max-width: 496px;
   margin: 0 auto;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
+  margin-bottom: 72px;
 }
 
 .hero-btn {
@@ -247,7 +252,7 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.045em;
   color: var(--subtitle-color);
   margin-bottom: 8px;
   text-align: center;
@@ -261,7 +266,7 @@ img {
 .features-item-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   color: var(--litle-text);
 }
 
