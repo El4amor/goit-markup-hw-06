@@ -31,6 +31,7 @@
     margin-bottom: 8px;
     text-align: left;
   }
+
   
 }
 
@@ -91,7 +92,23 @@
       padding: 120px 0;
   }
 
-  .footer-container {
-    
+.footer-container {
+    flex-direction: row;
+    align-items: baseline;
+}
+
+  .footer-box {
+      margin-right: 120px;
+  }
+
+  .footer-title {
+   width: 268px;
+  }
+
+  .footer-subscribe {
+      margin-left: 80px;
+  }
+  .footer-form {
+    flex-direction: row;
   }
 }
