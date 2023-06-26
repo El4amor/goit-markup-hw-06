@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-navigation">
           <a href="./index.html" class="header-logo link">
@@ -60,8 +60,77 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="open-menu-btn">
+          <svg class="button-hamburger" width="32" height="32">
+            <use href="./images/icons.svg#icon-hamburger"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="mob-menu">
+        <button type="button" class="close-menu-btn">
+          <svg class="close-menu-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <ul class="mob-menu-list list">
+          <li class="mob-menu-item">
+            <a class="mob-menu-link link current" href="./index.html">Studio</a>
+          </li>
+          <li class="mob-menu-item">
+            <a class="mob-menu-link link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="mob-menu-item">
+            <a class="mob-menu-link link" href="">Contacts</a>
+          </li>
+        </ul>
+        <address class="mob-menu-contacts">
+          <ul class="mob-menu-contacts-list list">
+            <li class="mob-menu-contacts-item">
+              <a
+                class="mob-menu-contacts-link link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="mob-menu-contacts-item">
+              <a class="mob-menu-contacts-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="mob-menu-soc-list list">
+          <li class="mob-menu-soc-item">
+            <a class="mob-menu-soc-link" href="" aria-label="instagram" target="_blank" rel="nooper noreferrer">
+              <svg class="mob-menu-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-footer-inst"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-menu-soc-item">
+            <a class="mob-menu-soc-link" href="" aria-label="twitter" target="_blank" rel="nooper noreferrer">
+              <svg class="mob-menu-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-footer-twit"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-menu-soc-item">
+            <a class="mob-menu-soc-link" href="" aria-label="facebook" target="_blank" rel="nooper noreferrer">
+              <svg class="mob-menu-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-footer-fb"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-menu-soc-item">
+            <a class="mob-menu-soc-link" href="" aria-label="linkedin" target="_blank" rel="nooper noreferrer">
+              <svg class="mob-menu-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-footer-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
     <main>
       <section class="hero">
         <div class="container hero-container">
@@ -132,7 +201,7 @@
           <ul class="activity-list list">
             <li class="activity-item">
               <img
-              srcset="./images/box1.jpg 1x, ./images/box1-2x.jpg 2x"
+                srcset="./images/box1.jpg 1x, ./images/box1-2x.jpg 2x"
                 src="./images/box1.jpg"
                 alt="we are planning"
                 width="360"
@@ -141,7 +210,7 @@
             </li>
             <li class="activity-item">
               <img
-              srcset="./images/box2.jpg 1x, ./images/box2-2x.jpg 2x"
+                srcset="./images/box2.jpg 1x, ./images/box2-2x.jpg 2x"
                 src="./images/box2.jpg"
                 alt="we are developing"
                 width="360"
@@ -150,7 +219,7 @@
             </li>
             <li class="activity-item">
               <img
-              srcset="./images/box3.jpg 1x, ./images/box3-2x.jpg 2x"
+                srcset="./images/box3.jpg 1x, ./images/box3-2x.jpg 2x"
                 src="./images/box3.jpg"
                 alt="we make a design"
                 width="360"
@@ -166,7 +235,7 @@
           <ul class="team-list list">
             <li class="team-item">
               <img
-              srcset="./images/team1.jpg 1x, ./images/team1-2x.jpg 2x"
+                srcset="./images/team1.jpg 1x, ./images/team1-2x.jpg 2x"
                 src="./images/team1.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -234,7 +303,7 @@
 
             <li class="team-item">
               <img
-              srcset="./images/team2.jpg 1x, ./images/team2-2x.jpg 2x"
+                srcset="./images/team2.jpg 1x, ./images/team2-2x.jpg 2x"
                 src="./images/team2.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -301,7 +370,7 @@
             </li>
             <li class="team-item">
               <img
-              srcset="./images/team3.jpg 1x, ./images/team3-2x.jpg 2x"
+                srcset="./images/team3.jpg 1x, ./images/team3-2x.jpg 2x"
                 src="./images/team3.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -368,7 +437,7 @@
             </li>
             <li class="team-item">
               <img
-              srcset="./images/team4.jpg 1x, ./images/team4-2x.jpg 2x"
+                srcset="./images/team4.jpg 1x, ./images/team4-2x.jpg 2x"
                 src="./images/team4.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -652,8 +721,7 @@
               <span class="check-link">
                 <svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
-                </svg> 
-              </span
+                </svg> </span
               >I accept the terms and conditions of the
               <a href="" class="privacy-link">Privacy Policy</a>
             </label>
