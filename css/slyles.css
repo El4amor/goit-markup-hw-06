@@ -134,6 +134,7 @@ img {
 
 .mob-menu-list {
   padding-left: 40px;
+  width: 200px;
 }
 
 .mob-menu-item:not(:last-child) {
