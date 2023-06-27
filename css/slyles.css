@@ -183,6 +183,10 @@ img {
   color: var(--portfolio-filters);
 }
 
+.current-mob {
+  color: var(--header-menu-link);
+}
+
 .mob-mail-contacts-link {
   font-size: 20px;
   font-family: Roboto;
@@ -199,8 +203,7 @@ img {
 .mob-menu-soc-list {
   display: flex;
   cursor: pointer;
-  gap: 56px;
-  flex-wrap: wrap;
+  gap: 36px;
   padding-left: 40px;
 }
 
@@ -227,7 +230,6 @@ img {
 
 .mob-menu-soc-icon {
   fill: var(--button-background-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .header-logo span {
@@ -252,13 +254,14 @@ img {
   background-color: var(--subtitle-color);
   /* padding: 188px 0 188px; */
   padding-top: 112px;
-  padding-bottom: 240px;
+  padding-bottom: 112px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office-mobile.jpg);
-  max-width: 1440px;
+  max-width: 428px;
+  height: 432px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -361,6 +364,7 @@ img {
 }
 
 .features-item-text {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -403,10 +407,11 @@ img {
 .team-list {
   background-color: var(--button-background-color);
   display: flex;
-  gap: 24px;
+  /* gap: 24px; */
+  gap: 72px;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .team-item {
@@ -500,7 +505,7 @@ img {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 72px 24px;
 }
 
 .customers-icon {
@@ -529,10 +534,12 @@ img {
 }
 
 .customers-item {
-  width: 168px;
+  width: 190px;
+  /* width: 168px; */
   height: 88px;
   display: flex;
-  gap: 24px;
+  /* gap: 24px; */
+  gap: 16px;
   align-items: center;
   justify-content: center;
 }
@@ -574,8 +581,9 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 16px;
-  display: inline-block;
+  display: block;
   color: var(--portfolio-filters);
+  text-align: center;
 }
 
 .span-footer {
@@ -648,13 +656,13 @@ img {
 
 .footer-soc-icon {
   fill: var(--button-background-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 
 .footer-form {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 24px; */
 }
 
 .footer-input {
@@ -697,6 +705,8 @@ img {
   border-radius: 4px;
   border: none;
   padding: 8px 24px;
+  margin: 0 auto;
+  margin-top: 16px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -740,6 +750,11 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   padding: 72px 24px 24px;
+  width: 95%;
+  max-width: 392px;
+  height: 95%;
+  max-height: 584px;
+  overflow: scroll;
 }
 
 .backdrop.is-hidden .modal {
